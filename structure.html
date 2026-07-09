@@ -61,7 +61,16 @@
         tbody tr:hover {
             background-color: #f1f1f1;
         }
+
+        
+
+
+
+        
     </style>
+</head>
+<body>
+  <div class="brand-title text-center">PANEL TÉCNICO</div>
     <div class="row g-3 grilla-datos-web">    /*inicio de una estructura de cuadrícula (grid) usando Bootstrap, representa la creación de un contenedor organizado y responsivo para mostrar información*/
                                               /*row: Define una fila horizontal que contendrá columnas. Es la base para alinear elementos lado a lado*/
                                               /*g-3 (Gutter 3): Define el espaciado (margen interno/separación) entre las columnas. En Bootstrap, un nivel 3 es un espacio moderado y equilibrado.*/
@@ -77,9 +86,12 @@
             <input type="text" name="placa" class="form-control" minlength="6" maxlength="6" pattern="^[A-Z0-9]{6}$" oninput="this.value = this.value.toUpperCase().replace(/[^A-Z0-9]/g, '');" required>
         </div>
     </div>
-</head>
-<body>
-  <div class="brand-title text-center">PANEL TÉCNICO</div>
+
+
+
+
+
+    
   <h2>Reporte de Stock de Repuestos</h2>
   <table class="tabla-cabecera-pdf">
       <tr>
